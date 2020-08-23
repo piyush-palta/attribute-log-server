@@ -66,8 +66,9 @@ class attributeLogServer:
 			while True:
 				data = self.request.recv(8192)
 				data = data.decode("utf-8")
-				print(data[62:])
-				logging.info(data[62:])
+				if(len(data)>=1):
+					print(data)
+					logging.info(data)
 
 	def start(self):
 		try:

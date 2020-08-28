@@ -1,4 +1,4 @@
-# Atrtribute Log Server
+# Attribute Log Server
 Attribute Server is a python based server module used to log attributes emitted by AttributeDumpingHandler of Elytron. It is an integral part of Intrusion Detection System project & will log attributes of http events, which will be used to train the machine learning model for anomaly detection.
 
 
